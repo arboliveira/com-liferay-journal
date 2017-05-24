@@ -159,17 +159,6 @@ public class JournalArticleIndexerLocalizedContentTest {
 				{
 					put("ddm__text__NNNNN__content_en_US", originalContent);
 					put("ddm__text__NNNNN__content_hu_HU", translatedContent);
-
-					put("ddm__text__NNNNN__content_ca_ES", originalContent);
-					put("ddm__text__NNNNN__content_de_DE", originalContent);
-					put("ddm__text__NNNNN__content_es_ES", originalContent);
-					put("ddm__text__NNNNN__content_fi_FI", originalContent);
-					put("ddm__text__NNNNN__content_fr_FR", originalContent);
-					put("ddm__text__NNNNN__content_iw_IL", originalContent);
-					put("ddm__text__NNNNN__content_ja_JP", originalContent);
-					put("ddm__text__NNNNN__content_nl_NL", originalContent);
-					put("ddm__text__NNNNN__content_pt_BR", originalContent);
-					put("ddm__text__NNNNN__content_zh_CN", originalContent);
 				}
 			});
 
@@ -319,18 +308,6 @@ public class JournalArticleIndexerLocalizedContentTest {
 			new HashMap<String, String>() {
 				{
 					put("ddm__text__NNNNN__content_ja_JP", content);
-
-					put("ddm__text__NNNNN__content_ca_ES", content);
-					put("ddm__text__NNNNN__content_de_DE", content);
-					put("ddm__text__NNNNN__content_en_US", content);
-					put("ddm__text__NNNNN__content_es_ES", content);
-					put("ddm__text__NNNNN__content_fi_FI", content);
-					put("ddm__text__NNNNN__content_fr_FR", content);
-					put("ddm__text__NNNNN__content_hu_HU", content);
-					put("ddm__text__NNNNN__content_iw_IL", content);
-					put("ddm__text__NNNNN__content_nl_NL", content);
-					put("ddm__text__NNNNN__content_pt_BR", content);
-					put("ddm__text__NNNNN__content_zh_CN", content);
 				}
 			});
 
