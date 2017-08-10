@@ -392,7 +392,7 @@ public class JournalArticleIndexerLocalizedContentTest {
 
 		Map<String, String> map2 = entries.collect(
 			Collectors.toMap(
-				entry -> entry.getKey() + "_sortable",
+				entry -> entry.getKey() + "_sortable_field",
 				entry -> StringUtil.toLowerCase(entry.getValue())));
 
 		map2.putAll(map);
